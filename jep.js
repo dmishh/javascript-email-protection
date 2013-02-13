@@ -42,7 +42,7 @@
  */
 function jep_link(domain, email, text, returnHtml) {
     var url = email + '@' + domain;
-    var link = '<a href="mailto:' + url + '">' + (text ? text : url) + '</a>';
+    var link = '<a href="ma' + 'i' + 'lto:' + url + '">' + (text ? text : url) + '</a>';
 
     if (returnHtml) {
         return link;
